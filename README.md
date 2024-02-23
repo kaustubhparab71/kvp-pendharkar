@@ -29,7 +29,8 @@
    
 5. **Retrieve Details**: Hit Enter to fetch NSG details (may take some time for searching across subscriptions).
 6. **Outcome**: Receive details of NSG associated with the specified subnet(s).
-   ![video](https://github.com/kaustubhparab71/kvp-pendharkar/assets/33633535/543ce3d4-9186-4668-9e6f-548a563db771)
+   
+  [![Watch the video](https://github.com/kaustubhparab71/kvp-pendharkar/assets/33633535/543ce3d4-9186-4668-9e6f-548a563db771)
 
 ## Prerequisites
 
