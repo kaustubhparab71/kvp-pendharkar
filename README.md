@@ -24,8 +24,12 @@
 1. **Installation**: Install required Azure packages and Azure CLI.
 2. **Run Script**: Execute the Python script in the terminal.
 3. **Enter Subnet**: Input the requested subnet(s) when prompted (format: `x.x.x.x/x`).
-4. **Retrieve Details**: Hit Enter to fetch NSG details (may take some time for searching across subscriptions).
-5. **Outcome**: Receive details of NSG associated with the specified subnet(s).
+    (*Note - there are some specific subnet range are belong to Azure Cloud so for that filteration we use python RE module)
+    ![image](https://github.com/kaustubhparab71/kvp-pendharkar/assets/33633535/1fd0b419-4437-4bdb-8c48-f8f4006d1eea)
+   
+5. **Retrieve Details**: Hit Enter to fetch NSG details (may take some time for searching across subscriptions).
+6. **Outcome**: Receive details of NSG associated with the specified subnet(s).
+   ![video](https://github.com/kaustubhparab71/kvp-pendharkar/assets/33633535/543ce3d4-9186-4668-9e6f-548a563db771)
 
 ## Prerequisites
 
@@ -42,3 +46,4 @@
 ## Azure Account Connection
 
 1. Run the following command in the command prompt:
+ -'AZ login'
